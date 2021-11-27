@@ -42,7 +42,7 @@ section{
     border: 3px solid white;
     width: 260px;
     height: 450px;
-    color: white;
+    color: black;
     background-color: #ffffff00;
     padding: 20px;
     float: right;
@@ -73,7 +73,7 @@ select:hover{
 }
 
 input[type="submit"]{
-    color: white;
+    color: black;
     background-color: #ffffff00 ;
     border: 2px solid white;
     cursor: pointer;
