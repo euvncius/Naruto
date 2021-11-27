@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black ;
+}
+
+
+
+header{
+    background-image: linear-gradient(to left,#fda949,black);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+h1{
+    font-size: 26px;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 20px;
+}
+
+section{ 
+    padding: 20px;
+    background-image: url(./images/section.jpg);
+    background-position-y: 60%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    border: 3px solid white;
+    width: 260px;
+    height: 450px;
+    color: white;
+    background-color: #ffffff00;
+    padding: 20px;
+    float: right;
+    border-radius: 20px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 20px;
+    transition: 0.2s;
+    background-color: white;
+}
+
+input:hover{
+    border: 3px solid white;
+}
+
+select:hover{
+    border: 3px solid white;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #ffffff00 ;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0s;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    background-color: #fda949;
+    border: 3px solid white;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center ;
+}
+
+footer{
+    background-image: linear-gradient(to bottom,#fda949,black);
+    height: 400px;
+    padding: 40px;
+    padding-top: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.picture{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.discription{
+    color: white;
+    max-width: 50%;
+    display: inline-block;
+    padding-bottom: 30px;
+    /*margin-left: 40px;*/
+}
+
+.discription h2, .discription p{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+
+    header{
+        background-image: linear-gradient(to left,#fda949,black);
+    }
+
+    section{
+        background-image: url(./images/section.jpg);
+        background-position-y: 90%;
+        
+    }
+
+    footer{
+        background-image: linear-gradient(to bottom,#fda949,black);
+    }
+
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+    .discription h2{
+        margin-bottom: 20px;
+    }
+    .discription{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
